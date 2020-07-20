@@ -1,0 +1,242 @@
+@charset "utf-8";
+@import url(https://fonts.google.com/specimen/Titillium+Web?subset=latin&query=tit&selection.family=Titillium+Web&sidebar.open);
+@font-face{
+    font-family: 'FonteLogo';
+    src:url(../_fonts/bubblegum-sans-regular.otf);
+    
+}
+header#cabecalho img#icone{
+    position: absolute;
+    left: 915px;
+    top: 70px;
+}
+
+body{
+
+   font-family: arial,sans-serif;
+    background-color:#dddddd;
+    color: rgba(0,0,0,1);
+}
+
+header#cabecalho{
+    border-bottom:1px #606060 solid ;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+
+
+}
+ /*formatação para div interface*/
+ div#interface {
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px grey ;
+    padding: 10px 10px 10px 10px;
+
+}
+header#cabecalho h1 {
+    font-family: 'FonteLogo',sans-serif;
+    font-size: 30px;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba (0,0,0,.6) ;
+    margin-bottom: 0px;
+}
+header#cabecalho h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: #888888;
+    margin-top: 0px;
+
+
+
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+a{color: #606060;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* formatação de imagens com legendas*/
+figure.foto-legenda{
+    position: relative;
+    border:8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+figure.foto-legenda img{
+    width: 100%;
+    height: 100%;
+}
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* formatação do menu*/
+nav#menu {
+    position: relative;;
+    margin-left: -40px;
+    margin-top: -70px;
+}
+
+nav#menu ul{
+    list-style: none ;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+nav#menu li  {
+display : inline-block;
+background-color:#dddddd;
+padding: 10px;
+margin: 2px;
+}
+
+nav#menu li:hover{
+    background-color:#606060;
+    transition: background-color 1s;
+    padding:  10px;
+}
+nav#menu h1{
+  display:none;  
+}
+nav#menu a {
+    color:black;
+    text-decoration: none;
+}
+nav#menu a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+section#corpo{
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: #606060 1px solid;
+    padding-right: 10px;
+}
+header#cabecalho-artigo h1{
+font-family: 'FonteLogo',sans-serif;
+font-size: 20pt;
+color: #606060;
+margin-bottom: 0px;
+
+}
+header#cabecalho-artigo h4{
+    font-size: 13pt;
+    color:#cecece ;
+    background-color:#ffffff;
+    margin: 0px;
+}
+header#cabecalho-artigo h3{
+    font-size: 12px;
+    color: #606060;
+
+
+}
+.direita{
+    text-align: right;
+}
+
+article#noticia-principal h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #888888;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+table#tabelaspec {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec td{
+    border: 1px solid #606060;
+    padding: 10px;
+
+    
+}
+table#tabelaspec td.ce{
+    color: white;
+    background-color: #606060;
+    vertical-align: top;
+    font-weight: bold;
+
+}
+table#tabelaspec td.cd{
+    background-color:#cecece
+
+}
+table#tabelaspec caption{
+    color: #888888;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 10px;
+    margin-top: 15px;
+
+
+}
+aside#lateral{
+    display: block;
+    width: 360px;
+    float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px ;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5)
+    
+}
+aside#lateral h1{
+    font-family: 'FonteLogo',sans-serif;
+    font-size: 20pt;
+    color:#606060;
+    margin-top: 0;
+  
+}
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color:#ffffff;
+    padding:5px ;
+
+
+}
+footer#rodape {
+clear:both; 
+border-top: solid #606060 1px;
+}
+footer#rodape p{
+    text-align: center;
+}
+
+
+video#videol {
+height: 203px;
+}
+
+
